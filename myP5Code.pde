@@ -14,7 +14,8 @@ void draw(){
   background(255,255,255,200);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+  eyeSize= 10
+  teethlength=40
   ellipse(150, 70, 60, 120);  // left ear
   ellipse(240, 70, 60, 120);  // right ear
 
@@ -27,8 +28,8 @@ void draw(){
   line(150, 200, 250, 200);   // mouth
 
   noFill();
-  rect(185, 200, 15, 10); // left tooth
-  rect(200, 200, 15, 10); // right tooth
+  rect(185, 200, 15, teethlength); // left tooth
+  rect(200, 200,15, teethlength); // right tooth
   
 
 }
